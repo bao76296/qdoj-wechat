@@ -1,0 +1,14 @@
+<!--pages/checkin/checkin.wxml-->
+<view class='heard--container'>
+  <text class='heard--title'>OJ FOR WECHAT</text>
+</view>
+<view class='button--container'>
+  <view class='button'>
+    <text>我是非酋</text>
+  </view>
+  <view class='button'>
+    <text>我是欧皇</text>
+  </view>
+</view>
+
+

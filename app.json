@@ -1,0 +1,30 @@
+{ 
+  "pages": [
+    "pages/checkin/checkin",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  
+  "window": {
+    "navigationStyle" : "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#a861d9",
+    "color": "#ffffff",
+    "selectedColor": "#52a9ff",
+    "list": [
+      {
+        "pagePath": "pages/checkin/checkin",
+        "text": "签到",
+        "iconPath": "image/checkin.png",
+        "selectedIconPath": "image/checkin_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "登陆",
+        "iconPath": "image/mine.png",
+        "selectedIconPath": "image/mine_selected.png"
+      }
+    ]
+  }
+}
