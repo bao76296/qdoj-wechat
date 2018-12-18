@@ -1,0 +1,13 @@
+{
+  "name": "qdoj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bao76296/qdoj-wechat.git",
+  "author": "bao76296 <762963131@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "miniprogram-redux": "^0.5.2",
+    "redux-promise-middleware": "^5.1.1",
+    "wafer2-client-sdk": "^2.1.0"
+  }
+}

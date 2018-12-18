@@ -38,6 +38,7 @@ page{
   font-size: 30px;
   color: white;
   border-radius: 30rpx;
+  box-shadow : 1px 1px 10px rgb(216, 202, 200);
 }
 
 .button text{
