@@ -1,13 +1,17 @@
 <!--index.wxml-->
-<view class="container">
+<view class="index--container">
   <view class="userinfo">
-    <text wx:if="{{!logged && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 正在获取数据，如失败，请点击 </text>
+    <button class='but' wx:if="{{!logged && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 正在获取数据，如失败，请点击 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
+    
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class='but-container'>
+    <but_ripple height="{{100}}" fontSize="{{20}}" backgroundColor="{{'#CCFF66'}}" color="{{'#333399'}}">
+        <text>与OJ绑定账号</text>
+    </but_ripple>
   </view>
+  
 </view>

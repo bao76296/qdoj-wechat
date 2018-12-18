@@ -18,7 +18,8 @@ Page(
 
     },
 
-    feiqiuTap() {
+    feiqiuTap(e) {
+      console.log(e)
       console.log(store.getState())
     },
     ouhuangTap() {

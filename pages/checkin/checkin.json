@@ -1,1 +1,5 @@
-{}
+{
+  "usingComponents" : {
+    "but_ripple" : "../../component/button/button_ripple/button_ripple"
+  }
+}

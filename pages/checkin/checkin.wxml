@@ -3,13 +3,8 @@
   <text class='heard--title'>OJ FOR WECHAT</text>
 </view>
 <view class='button--container'>
-  <view class='button' bindtap="feiqiuTap">
-    <text>我是非酋</text>
-  </view>
-  <view class='button' bindtap='ouhuangTap'>
-    <text>我是欧皇</text>
-  </view>
-  
+  <but_ripple bindtap="feiqiuTap"><text>我是非酋</text></but_ripple>
+  <but_ripple bindtap="feiqiuTap"><text>我是欧皇</text></but_ripple>
 </view>
 
 

@@ -1,0 +1,9 @@
+<!--component/button/button_ripple/button_ripple.wxml-->
+
+
+<view class="container" bindtap="containerTap" 
+style ="height:{{height}}rpx;width:{{width}}rpx;background-color:{{backgroundColor}};color:{{color}};font-size: {{fontSize}}px; border-radius: {{borderRadius}}rpx;" 
+>
+  <slot style="z-index:-1"></slot>
+    <view class="ripple"  style="{{rippleStyle}}"></view>
+</view>
